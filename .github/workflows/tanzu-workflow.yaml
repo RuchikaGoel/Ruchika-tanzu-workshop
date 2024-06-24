@@ -18,7 +18,7 @@ jobs:
         uses: cpage-pivotal/tanzu-deploy-action@v1.3
         with:
           tanzu_api_token: ${{ secrets.TanzuApiToken }}
-          container_registry: ghcr.io/${{ github.actor }}/tanzu-app
+          container_registry: ghcr.io/${{ github.actor }}/tanzu2
           buildPlanSource: custom-build-plan
           project: Energy-Transfer
           space: delta-space
